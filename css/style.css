@@ -17,8 +17,8 @@ body {
   width: 100%;
 }
 
-img{
-    width: 14rem;
+img {
+  width: 15rem;
 }
 
 /* .item {
@@ -40,7 +40,7 @@ img{
   bottom: 20px;
   text-align: right;
   color: white;
-}
+} */
 
 .thumbs {
   float: left;
@@ -83,13 +83,13 @@ img{
   bottom: 0;
 }
 
-/*
-EXTRA: in questo esempio gli accordion vengono creati
+
+/* EXTRA: in questo esempio gli accordion vengono creati
 usando 2 bordi di un quadratino ruotato di 45 gradi
 In una versione base si possono usare delle icone
-oppure i caratteri ∧ (&and;) e ∨ (&or;)
- */
-/* .prev::after {
+oppure i caratteri ∧ (&and;) e ∨ (&or;) */
+
+ .prev::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -113,4 +113,4 @@ oppure i caratteri ∧ (&and;) e ∨ (&or;)
   bottom: 35%;
   left: 50%;
   transform: translate(-50%) rotate(135deg);
-} */
+}
