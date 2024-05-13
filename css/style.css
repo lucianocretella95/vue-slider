@@ -18,9 +18,16 @@ body {
 }
 
 img {
-  width: 15rem;
+  width: 14rem;
 }
 
+.none{
+    display: none;
+}
+
+.active{
+    display: block;
+}
 /* .item {
   float: left;
   width: 700px;

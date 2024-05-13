@@ -33,4 +33,26 @@ createApp({
       slideActive: 0,
     };
   },
+
+  methods: {
+    visibility(indice) {
+      return indice == this.slideActive ? "active" : "";
+    },
+    next() {
+      this.slideActive++;
+      if (slideActive == 4) {
+        slideActive = 0;
+      } else {
+        this.slideActive++;
+      }
+    },
+    back() {
+      this.slideActive--;
+      if (slideActive == 4) {
+        slideActive = 0;
+      } else {
+        this.slideActive--;
+      }
+    },
+  },
 }).mount("#app");
