@@ -13,12 +13,15 @@
     <div id="app">
       <div class="container">
         <div v-for="element, i in slides" class="none" :class="visibility(i)">
-          <img v-bind:src="element.image" alt="img" />
+          <img :src="element.image" alt="img" />
           <h1>{{element.title}}</h1>
           <p>{{element.text}}</p>
+        </div>
+        <div class="buttoncontainer">
           <button @click="back()">Indietro</button>
             <button @click="next()">Avanti</button>
         </div>
+            
       </div>
           <!-- <div class="thumbs">
             <div class ="prev"></div>

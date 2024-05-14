@@ -11,22 +11,24 @@ body {
 
 .container {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  text-align: center;
 }
 
 img {
-  width: 14rem;
+  width: 30%;
+  object-fit: cover;
+}
+.buttoncontainer{
+  margin-top: 1rem;
 }
 
-.none{
-    display: none;
+.none {
+  display: none;
 }
 
-.active{
-    display: block;
+.active {
+  display: block;
 }
 /* .item {
   float: left;
@@ -90,13 +92,12 @@ img {
   bottom: 0;
 }
 
-
 /* EXTRA: in questo esempio gli accordion vengono creati
 usando 2 bordi di un quadratino ruotato di 45 gradi
 In una versione base si possono usare delle icone
 oppure i caratteri ∧ (&and;) e ∨ (&or;) */
 
- .prev::after {
+.prev::after {
   content: "";
   width: 10px;
   height: 10px;
